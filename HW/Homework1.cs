@@ -7,7 +7,8 @@ namespace Homework1_jhaywoo2
         static void Main(string[] args)
         {
             Fibonacci fibonacci = new Fibonacci();
-           
+           //requirements were to hard code a value
+            //but I could prompt the user and read in values using Console.Readline then convert value to Int32
             int series = 15;
         
             for (int i = 1; i < series; i++)
